@@ -1,0 +1,77 @@
+<screen name="Simple Movie List Main" position="center,center" size="1280,720" title="Simple Movie List Main">
+
+	<eLabel position="0,0" zPosition="-5" size="1280,720" name="Background" backgroundColor="#ff000000"/>
+	<ePixmap position="40,35" size="160,80" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/logo.png" />
+	
+	<eLabel position="24,24" size="392,102" zPosition="-4" name="LogoMBg" backgroundColor="#00000000"/>	
+	<eLabel position="25,25" size="196,100" zPosition="-4" name="LogoBo" backgroundColor="#00cccccc"/>
+	<eLabel position="26,26" size="194,98" zPosition="-4" name="LogoBg" backgroundColor="#25000000"/>
+	<eLabel position="220,25" size="196,100" zPosition="-4" name="TimeBo" backgroundColor="#00cccccc"/>
+	<eLabel position="221,26" size="194,98" zPosition="-4" name="TimeBg" backgroundColor="#25000000"/>
+	
+	<eLabel position="24,134" size="392,32" zPosition="-4" name="SpaceMBg" backgroundColor="#00000000"/>
+	<eLabel position="25,135" size="391,30" zPosition="-4" name="SpaceBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="26,136" size="389,28" zPosition="-4" name="SpaceBg" backgroundColor="#25000000"/>	
+	
+	<eLabel position="24,174" size="392,32" zPosition="-4" name="FolderMBg" backgroundColor="#00000000"/>
+	<eLabel position="25,175" size="391,30" zPosition="-4" name="FolderBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="26,176" size="389,28" zPosition="-4" name="FolderBg" backgroundColor="#25000000"/>		
+	
+	<eLabel position="24,214" size="392,32" zPosition="-4" name="SizeMBg" backgroundColor="#00000000"/>	
+	<eLabel position="25,215" size="391,30" zPosition="-4" name="SizeBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="26,216" size="389,28" zPosition="-4" name="SizeBg" backgroundColor="#25000000"/>		
+	
+	<eLabel position="59,257" size="244,364" zPosition="-3" name="CoverMBg" backgroundColor="#00000000"/>	
+	<eLabel position="60,258" size="242,362" zPosition="-3" name="CoverBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="61,259" size="240,360" zPosition="-3" name="CoverBg" backgroundColor="#25000000"/>
+	
+	<eLabel position="24,507" size="1232,189" zPosition="-4" name="InfoMBg" backgroundColor="#00000000"/>	
+	<eLabel position="25,508" size="1230,187" zPosition="-4" name="InfoBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="26,509" size="1228,185" zPosition="-4" name="InfoBg" backgroundColor="#25000000"/>
+	
+	<eLabel position="414,24" size="842,485" zPosition="-4" name="ListMBg" backgroundColor="#00000000"/>	
+	<eLabel position="415,25" size="840,484" zPosition="-4" name="ListBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="416,26" size="838,482" zPosition="-4" name="ListBg" backgroundColor="#25000000"/>	
+	
+	<eLabel position="301,478" size="115,31" zPosition="-5" name="IndexMBg" backgroundColor="#00000000"/>	
+	<eLabel position="301,479" size="115,30" zPosition="-5" name="IndexBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="302,480" size="113,28" zPosition="-5" name="IndexBg" backgroundColor="#25000000"/>	
+
+	<eLabel position="25,665" size="1230,1" zPosition="2" name="HelpLine" backgroundColor="#00cccccc"/>
+			
+	<widget source="global.CurrentTime" render="Label" position="221,26" size="194,98" noWrap="1" zPosition="3" transparent="1" font="Regular; 40" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" >
+		<convert type="ClockToText">Format:%H:%M</convert>
+	</widget>
+	
+	<widget name="version" position="170,50" size="50,24" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	
+	<widget name="title" position="26,136" size="389,28" noWrap="1" zPosition="1" transparent="1" font="Regular; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	<widget name="path" position="26,176" size="389,28" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#0084ff00" />
+	<widget name="info" position="26,216" size="389,28" noWrap="1" zPosition="1" transparent="1" font="Regular; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+		
+	<widget name="index" position="302,480" size="113,28" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#0084ff00" />
+		
+	<widget name="list" position="417,27" size="836,480" zPosition="5" transparent="1" backgroundColor="#00000000" foregroundColorSelected="#00ffffff" foregroundColor="#009c9c9c" scrollbarMode="showOnDemand" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/cursor.png" />
+
+	<widget name="cover" position="62,260" size="239,358" zPosition="-2" transparent="1" alphatest="blend" />
+	
+	<widget name="169" position="255,630" size="40,20" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/169.png" />
+	<widget name="hd" position="173,630" size="30,20" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/hd.png" />
+	<widget name="dts" position="70,630" size="60,20" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/dts.png" />
+		
+	<widget name="description" position="308,513" size="945,155" zPosition="1" transparent="1" font="Regular; 18" valign="top" halign="left" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+
+	<widget name="popup" position="925,345" size="330,350" zPosition="8" transparent="1" backgroundColor="#00000000" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/popup.png" />
+	<widget name="popuplist" position="935,355" size="310,330" zPosition="9" transparent="1" backgroundColor="#00000000" foregroundColorSelected="#00ffffff" foregroundColor="#009c9c9c" scrollbarMode="showOnDemand" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/cursor.png" />
+
+	<eLabel position="80,670" size="190,2" zPosition="0" name="ButtonRED" backgroundColor="#008b0201"/>
+	<eLabel position="390,670" size="190,2" zPosition="0" name="ButtonGREEN" backgroundColor="#00007f0c"/>
+	<eLabel position="700,670" size="190,2" zPosition="0" name="ButtonYELLOW" backgroundColor="#007f7800"/>
+	<eLabel position="1010,670" size="190,2" zPosition="0" name="ButtonBLUE" backgroundColor="#0000517f"/>
+	
+	<widget name="red" position="80,675" size="190,20" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" />
+	<widget name="green" position="390,675" size="190,20" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" />
+	<widget name="yellow" position="700,675" size="190,20" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" />		
+	<widget name="blue" position="1010,675" size="190,20" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" />
+	
+</screen>

@@ -1,0 +1,44 @@
+<screen name="Simple Movie List Cover Main" position="center,center" size="1280,720" title="Simple Movie List Cover Main">
+
+	<eLabel position="0,0" zPosition="-5" size="1280,720" name="Background" backgroundColor="#ff000000"/>
+	<ePixmap position="40,35" size="160,80" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/logo.png" />
+	
+	<eLabel position="24,24" size="322,102" zPosition="-4" name="LogoMBg" backgroundColor="#00000000"/>	
+	<eLabel position="25,25" size="321,100" zPosition="-4" name="LogoBo" backgroundColor="#00cccccc"/>
+	<eLabel position="26,26" size="319,98" zPosition="-4" name="LogoBg" backgroundColor="#25000000"/>
+	
+	<eLabel position="24,134" size="392,32" zPosition="-4" name="SpaceMBg" backgroundColor="#00000000"/>
+	<eLabel position="25,135" size="391,30" zPosition="-4" name="SpaceBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="26,136" size="389,28" zPosition="-4" name="SpaceBg" backgroundColor="#25000000"/>	
+	
+	<eLabel position="24,174" size="322,522" zPosition="-4" name="CoverMBg" backgroundColor="#00000000"/>	
+	<eLabel position="25,175" size="321,494" zPosition="-4" name="CoverBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="26,176" size="319,492" zPosition="-4" name="CoverBg" backgroundColor="#25000000"/>		
+	
+	<eLabel position="345,25" size="910,30" zPosition="-1" name="TopBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="346,26" size="908,28" zPosition="-1" name="TopBg" backgroundColor="#25000000"/>
+	
+	<eLabel position="345,24" size="911,672" zPosition="-4" name="ListMBg" backgroundColor="#00000000"/>	
+	<eLabel position="345,25" size="910,644" zPosition="-4" name="ListBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="346,26" size="908,642" zPosition="-4" name="ListBg" backgroundColor="#25000000"/>	
+	
+	<eLabel position="25,668" size="1230,27" zPosition="-1" name="BottomBO" backgroundColor="#00cccccc"/>	
+	<eLabel position="26,669" size="1228,25" zPosition="-1" name="BottomBg" backgroundColor="#25000000"/>	
+	
+	<widget name="version" position="170,50" size="50,24" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	
+	<widget name="title" position="356,26" size="898,30" noWrap="1" zPosition="1" transparent="1" font="Regular; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0084ff00" />
+	<widget name="path" position="26,136" size="321,30" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+
+	<widget name="description" position="30,180" size="311,484" zPosition="1" transparent="1" font="Regular; 16" valign="top" halign="left" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+
+	<eLabel position="80,673" size="190,2" zPosition="0" name="ButtonRED" backgroundColor="#008b0201"/>
+	<eLabel position="390,673" size="190,2" zPosition="0" name="ButtonGREEN" backgroundColor="#00007f0c"/>
+	<eLabel position="700,673" size="190,2" zPosition="0" name="ButtonYELLOW" backgroundColor="#007f7800"/>
+	<eLabel position="1010,673" size="190,2" zPosition="0" name="ButtonBLUE" backgroundColor="#0000517f"/>
+	
+	<widget name="red" position="80,675" size="190,20" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" />
+	<widget name="green" position="390,675" size="190,20" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" />
+	<widget name="yellow" position="700,675" size="190,20" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" />		
+	<widget name="blue" position="1010,675" size="190,20" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" />
+	
