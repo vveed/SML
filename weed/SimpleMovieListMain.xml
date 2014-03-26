@@ -59,7 +59,7 @@
 	<widget name="hd" position="173,630" size="30,20" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/hd.png" />
 	<widget name="dts" position="70,630" size="60,20" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/dts.png" />
 		
-	<widget name="description" position="308,513" size="945,155" zPosition="1" transparent="1" font="Regular; 18" valign="top" halign="left" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	<widget name="description" position="308,513" size="945,149" zPosition="1" transparent="1" font="Regular; 18" valign="top" halign="left" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
 
 	<widget name="popup" position="925,345" size="330,350" zPosition="8" transparent="1" backgroundColor="#00000000" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/popup.png" />
 	<widget name="popuplist" position="935,355" size="310,330" zPosition="9" transparent="1" backgroundColor="#00000000" foregroundColorSelected="#00ffffff" foregroundColor="#009c9c9c" scrollbarMode="showOnDemand" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/cursor.png" />
