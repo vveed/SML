@@ -41,8 +41,6 @@
 	
 	<widget name="title" position="26,136" size="389,28" noWrap="1" zPosition="1" transparent="1" font="Regular; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
 	
-	<ePixmap name="cover" position="62,260" size="239,358" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/no_cover.png" />
-	
 	<widget name="list" position="417,27" size="836,480" zPosition="5" transparent="1" backgroundColor="#00000000" foregroundColorSelected="#00ffffff" foregroundColor="#009c9c9c" scrollbarMode="showOnDemand" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/cursor.png" />
 
 	<eLabel position="80,670" size="190,2" zPosition="0" name="ButtonRED" backgroundColor="#008b0201"/>

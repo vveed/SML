@@ -53,7 +53,7 @@
 		
 	<widget name="list" position="417,27" size="836,480" zPosition="5" transparent="1" backgroundColor="#00000000" foregroundColorSelected="#00ffffff" foregroundColor="#009c9c9c" scrollbarMode="showOnDemand" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/cursor.png" />
 
-	<widget name="cover" position="62,260" size="239,358" zPosition="-2" transparent="1" alphatest="blend" />
+	<widget name="cover" position="62,260" size="239,358" zPosition="1" transparent="1" alphatest="blend" />
 	
 	<widget name="169" position="255,630" size="40,20" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/169.png" />
 	<widget name="hd" position="173,630" size="30,20" zPosition="1" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/weed/images/hd.png" />
