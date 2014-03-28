@@ -26,13 +26,15 @@
 	<eLabel position="26,669" size="1228,25" zPosition="-1" name="BottomBg" backgroundColor="#25000000"/>	
 	
 	<widget name="version" position="170,50" size="50,24" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	<widget name="index" position="210,95" size="130,30" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#0084ff00" />
+			
+	<widget name="title" position="355,26" size="800,30" noWrap="1" zPosition="1" transparent="1" font="Regular; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0084ff00" />
+	<widget name="path" position="805,26" size="445,30" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="right" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	<widget name="info" position="26,136" size="389,28" noWrap="1" zPosition="1" transparent="1" font="Regular; 20" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#0084ff00" />
 	
-	<widget name="title" position="356,26" size="898,30" noWrap="1" zPosition="1" transparent="1" font="Regular; 20" valign="center" halign="left" backgroundColor="#00000000" foregroundColor="#0084ff00" />
-	<widget name="path" position="26,136" size="321,30" noWrap="1" zPosition="1" transparent="1" font="Regular; 16" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
-
-	<widget name="cover" position="62,260" size="239,358" zPosition="1" transparent="1" alphatest="blend" />
+	<widget name="cover" position="27,177" size="317,487" zPosition="1" transparent="1" alphatest="blend" />
 	
-	<widget name="description" position="30,180" size="311,484" zPosition="1" transparent="1" font="Regular; 16" valign="top" halign="left" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	<widget name="description" position="30,180" size="311,484" zPosition="1" transparent="1" font="Regular; 18" valign="top" halign="left" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
 
 	<eLabel position="80,673" size="190,2" zPosition="0" name="ButtonRED" backgroundColor="#008b0201"/>
 	<eLabel position="390,673" size="190,2" zPosition="0" name="ButtonGREEN" backgroundColor="#00007f0c"/>
