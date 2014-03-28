@@ -4,27 +4,27 @@
 	
 	<eLabel position="24,544" size="214,152" zPosition="-4" name="PlayerLMBg" backgroundColor="#00000000"/>	
 	<eLabel position="25,545" size="212,150" zPosition="-4" name="PlayerLBo" backgroundColor="#00cccccc"/>
-	<eLabel position="26,546" size="210,148" zPosition="-4" name="PlayerLBg" backgroundColor="#50000000"/>
+	<eLabel position="26,546" size="210,148" zPosition="-4" name="PlayerLBg" backgroundColor="#40000000"/>
 	
 	<eLabel position="246,594" size="754,102" zPosition="-4" name="PlayerCMBg" backgroundColor="#00000000"/>	
 	<eLabel position="247,595" size="752,100" zPosition="-4" name="PlayerCBo" backgroundColor="#00cccccc"/>
-	<eLabel position="248,596" size="750,98" zPosition="-4" name="PlayerCBg" backgroundColor="#50000000"/>	
+	<eLabel position="248,596" size="750,98" zPosition="-4" name="PlayerCBg" backgroundColor="#40000000"/>	
 	
 	<eLabel position="246,544" size="754,42" zPosition="-4" name="PlayerCTMBg" backgroundColor="#00000000"/>	
 	<eLabel position="247,545" size="752,40" zPosition="-4" name="PlayerCTBo" backgroundColor="#00cccccc"/>
-	<eLabel position="248,546" size="750,38" zPosition="-4" name="PlayerCTBg" backgroundColor="#50000000"/>
+	<eLabel position="248,546" size="750,38" zPosition="-4" name="PlayerCTBg" backgroundColor="#40000000"/>
 
 	<eLabel position="1008,544" size="248,152" zPosition="-4" name="PlayerRMBg" backgroundColor="#00000000"/>	
 	<eLabel position="1009,545" size="246,150" zPosition="-4" name="PlayerRBo" backgroundColor="#00cccccc"/>
-	<eLabel position="1010,546" size="244,148" zPosition="-4" name="PlayerRBg" backgroundColor="#50000000"/>
+	<eLabel position="1010,546" size="244,148" zPosition="-4" name="PlayerRBg" backgroundColor="#40000000"/>
 	
 	<eLabel position="271,628" size="704,24" zPosition="-4" name="ProgressMBg" backgroundColor="#00000000"/>	
 	<eLabel position="272,629" size="702,22" zPosition="-4" name="ProgressBo" backgroundColor="#00cccccc"/>
-	<eLabel position="273,630" size="700,20" zPosition="-4" name="ProgressBg" backgroundColor="#30333333"/>	
+	<eLabel position="273,630" size="700,20" zPosition="-4" name="ProgressBg" backgroundColor="#40222222"/>	
 	
 	<eLabel position="50,422" size="162,248" zPosition="-3" name="CoverMBg" backgroundColor="#00000000"/>	
 	<eLabel position="51,423" size="160,246" zPosition="-3" name="CoverBo" backgroundColor="#00cccccc"/>
-	<eLabel position="52,424" size="158,244" zPosition="-3" name="CoverBg" backgroundColor="#50000000"/>	
+	<eLabel position="52,424" size="158,244" zPosition="-3" name="CoverBg" backgroundColor="#40000000"/>	
 
 	<widget source="session.CurrentService" render="Label" position="251,546" size="770,38" zPosition="1" transparent="1" font="Regular; 24" valign="center" halign="center" backgroundColor="#00000000" foregroundColor="#00ffffff">
 		<convert type="ServiceName">Name</convert>
@@ -74,7 +74,7 @@
 		<convert type="ServicePosition">Position</convert>
 	</widget>
 
-	<widget name="seekbartime" position="915,600" size="100,20" zPosition="6" transparent="1" font="Regular; 20" backgroundColor="#00000000" foregroundColor="#0090ff00" valign="center" halign="left" />
+	<widget name="seekbartime" position="875,600" size="100,20" zPosition="6" transparent="1" font="Regular; 20" backgroundColor="#00000000" foregroundColor="#0090ff00" valign="center" halign="right" />
 
 	<widget name="cover" position="53,425" size="156,242" zPosition="1" transparent="1" alphatest="blend" />
 	
