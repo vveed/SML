@@ -78,8 +78,8 @@
 
 	<widget name="cover" position="53,425" size="156,242" zPosition="1" transparent="1" alphatest="blend" />
 	
-	<eLabel text="Film länge:" position="273,660" size="700,30" noWrap="1" zPosition="6" transparent="1" font="Regular; 20" backgroundColor="#00000000" foregroundColor="#0090ff00" valign="center" halign="left" />
-	<widget source="session.CurrentService" render="Label" position="373,660" size="600,30" zPosition="6" transparent="1" font="Regular; 20" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="center" halign="left">
+	<eLabel text="Film länge:" position="273,660" size="100,30" noWrap="1" zPosition="6" transparent="1" font="Regular; 20" backgroundColor="#00000000" foregroundColor="#0090ff00" valign="center" halign="left" />
+	<widget source="session.CurrentService" render="Label" position="370,660" size="65,30" zPosition="6" transparent="1" font="Regular; 20" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="center" halign="right">
     <convert type="ServicePosition">Remaining</convert>
 	</widget>
 	<eLabel text="min." position="440,660" size="55,30" noWrap="1" zPosition="6" transparent="1" font="Regular; 20" backgroundColor="#00000000" foregroundColor="#009c9c9c" valign="center" halign="left" />
