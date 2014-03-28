@@ -34,7 +34,11 @@
 	
 	<widget name="cover" position="27,177" size="317,487" zPosition="1" transparent="1" alphatest="blend" />
 	
-	<widget name="description" position="30,180" size="311,484" zPosition="1" transparent="1" font="Regular; 18" valign="top" halign="left" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	<widget name="description" position="30,180" size="311,460" zPosition="1" transparent="1" font="Regular; 18" valign="top" halign="left" backgroundColor="#00000000" foregroundColor="#00c9c9c9" />
+	
+	<widget name="169" position="80,640" size="40,20" zPosition="2" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/original/images/169.png" />
+	<widget name="hd" position="130,640" size="30,20" zPosition="2" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/original/images/hd.png" />
+	<widget name="dts" position="170,640" size="60,20" zPosition="2" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/simplelist/skins/original/images/dts.png" />
 
 	<eLabel position="80,673" size="190,2" zPosition="0" name="ButtonRED" backgroundColor="#008b0201"/>
 	<eLabel position="390,673" size="190,2" zPosition="0" name="ButtonGREEN" backgroundColor="#00007f0c"/>
